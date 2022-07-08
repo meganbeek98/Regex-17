@@ -34,6 +34,7 @@ A RegEx for emails uses specific characters to encode the input address. Below i
 ### OR Operator
     The begining of the string is identified by the caret ```^``` and the end of the string is identified by the dollar sign ```$```
 ### Character Classes
+The period symbol ```.``` will match any character except line breaks. in our example the ```.``` actually refers to the periods in the email and are not a character class.
 
 ### Flags
 
