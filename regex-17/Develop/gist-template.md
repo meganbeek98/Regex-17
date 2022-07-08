@@ -53,10 +53,14 @@ A RegEx for emails uses specific characters to encode the input address. Below i
 
 ### Greedy and Lazy Match
 
+    Lazy quantifiers marked. So far in this example, we have only used greedy quantifiers ```+``` and ```{}```. If these quantifiers were lazy quantifiers, they would appear as ```+?``` or ```{}?``` meaning it will direct the system to make the shortest match possible.
+
 ### Boundaries
+    Boundaries ```\b``` make assertions about what can be matched to the left and right of the current position. In non-Unicode mode, it matches a position where only one side is an ASCII letter, digit or underscore. In Unicode mode, it matches a position where only one side is a Unicode letter, digit or underscore. ```\B```
+        - Replace both ```^``` and ```$``` with ```\b```. 
 
 ### Back-references
-
+    Back-references are regex commands which refer to a previous part of the matched regular expression. Back-references are specified with backslash and a single digit: ```\1```. 
 ### Look-ahead and Look-behind
 
 ## Author
