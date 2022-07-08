@@ -27,12 +27,12 @@ A RegEx for emails uses specific characters to encode the input address. Below i
   - [Author](#author)
 
 ### Anchors
-    The begining of the string is identified by the caret `^` and the end of the string is identified by the dollar sign `$`
+    The begining of the string is identified by the caret ```^``` and the end of the string is identified by the dollar sign ```$```
 ### Quantifiers
     ```+``` is used to communicate there is another sequence to be matched as a greedy quantifier. ```{2,6}``` is another greedy quantifer used to specify the input that there should be a minimum of 2 characrtors to a maximum of 6 characters.
 
 ### OR Operator
-
+    The begining of the string is identified by the caret ```^``` and the end of the string is identified by the dollar sign ```$```
 ### Character Classes
 
 ### Flags
