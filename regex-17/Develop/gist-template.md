@@ -1,7 +1,5 @@
 # Regex (with Email Addresses)
-
-Introductory paragraph
-# Regular expression (known as RegEx) is a pattern of characters used to validate character combinations being read inside of coding languages. This tutorial shows a breakdown of a RegEx for an email address...
+# -- "Regular Expression" (known as RegEx) is a pattern of characters used to validate character combinations being read inside of different coding languages. This tutorial shows a breakdown of a RegEx for an email address...
 
 ## Summary
 A RegEx for emails uses specific characters to encode the input address. Below is our example: <br/>
