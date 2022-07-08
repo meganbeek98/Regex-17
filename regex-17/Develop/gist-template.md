@@ -34,9 +34,12 @@ A RegEx for emails uses specific characters to encode the input address. Below i
 ### OR Operator
     The begining of the string is identified by the caret ```^``` and the end of the string is identified by the dollar sign ```$```
 ### Character Classes
-The period symbol ```.``` will match any character except line breaks. in our example the ```.``` actually refers to the periods in the email and are not a character class.
+    The period symbol ```.``` will match any character except line breaks. in our example the ```.``` actually refers to the periods in the email and are not a character class.
 
 ### Flags
+    Flags are optional and change the behavior of searching; flags are denoted using ONE single lowercase alphabetic character. To give multiple flags to a Regex, we write them one after another (without any spaces or other delimiters). 
+    
+    In Regex for JavaScript, there's a total of SIX(6) flags, each one having a different purpose.
 
 ### Grouping and Capturing
 
