@@ -1,4 +1,4 @@
-# Regex for Email Addresses
+# Regex (with Email Addresses)
 
 Introductory paragraph
 # Regular expression (known as RegEx) is a pattern of characters used to validate character combinations being read inside of coding languages. This tutorial shows a breakdown of a RegEx for an email address...
@@ -62,7 +62,7 @@ A RegEx for emails uses specific characters to encode the input address. Below i
 ### Back-references
     Back-references are regex commands which refer to a previous part of the matched regular expression. Back-references are specified with backslash and a single digit: ```\1```. 
 ### Look-ahead and Look-behind
-
+    Lookahead and lookbehind, also known as lookaround, are zero-length assertions just like the start and end of line, and start and end with word anchors explained earlier in this tutorial. These return only the result 'match' or 'no match'. That is why they are called “assertions”, don't consume characters in the string.
 ## Author
     Hello. My name is Megan. I am a student in OSU coding bootcamp (2022)
 ### [View My GitHub Profile HERE!](https://github.com/meganbeek98)
